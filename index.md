@@ -95,6 +95,9 @@ the pitch.
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
 {% endif %}
+<p id="language">
+  <strong>Kurssprache:</strong> Deutsch
+</p>
 
 {% comment %}
 AUDIENCE
@@ -127,9 +130,6 @@ address.
 {% assign online = "false" %}
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
-<p id="language">
-  <strong>Kurssprache:</strong> Deutsch
-</p>
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
