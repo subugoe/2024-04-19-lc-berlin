@@ -127,7 +127,7 @@ address.
 {% assign online = "false" %}
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
-<p id="where">
+<p id="language">
   <strong>Kurssprache:</strong> Deutsch
 </p>
 <p id="where">
