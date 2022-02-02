@@ -35,7 +35,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 Check DC curriculum
 {% endcomment %}
-Kursprache: Deutsch
 {% if site.carpentry == "dc" %}
 {% unless site.curriculum == "dc-astronomy" or site.curriculum == "dc-ecology" or site.curriculum == "dc-genomics" or site.curriculum == "dc-socsci" or site.curriculum == "dc-geospatial" %}
 <div class="alert alert-warning">
@@ -128,6 +127,9 @@ address.
 {% assign online = "false" %}
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
+<p id="where">
+  <strong>Kurssprache:</strong> Deutsch
+</p>
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
