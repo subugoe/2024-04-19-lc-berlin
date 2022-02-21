@@ -432,6 +432,10 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+<h3 id="setup">Notepad++</h3>
+<p>For "Data Intro for Archivists" you will have to install Notepad++. You can download the latest version from <a href = "https://notepad-plus-plus.org/downloads/">this website.</a>
+</p>
+
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
