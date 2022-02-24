@@ -442,6 +442,13 @@ during the workshop.
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
+<h3 id="setup">Python++</h3>
+In order to make it easier for the participants, we are going to use Jupyter Notebooks hosted by the GWDG. That means, you do NOT have to download or install anything.
+
+In stead, please, log in at <a href = "https://jupyter-cloud.gwdg.de/welcome/?">the GWDG Jupyter Cloud service.</a>
+
+If you are able to see this dashboard, you are ready for the Python workshop:
+![](https://pad.gwdg.de/uploads/c4ea241992182d482dec04a68.png)
 {% elsif site.carpentry == "incubator" %}
 Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
