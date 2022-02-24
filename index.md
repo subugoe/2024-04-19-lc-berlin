@@ -442,7 +442,7 @@ during the workshop.
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
-<h3 id="setup">Python++</h3>
+<h3 id="setup">Python</h3>
 In order to make it easier for the participants, we are going to use Jupyter Notebooks hosted by the GWDG. That means, you do NOT have to download or install anything.
 
 In stead, please, log in at <a href = "https://jupyter-cloud.gwdg.de/welcome/?">the GWDG Jupyter Cloud service.</a>
