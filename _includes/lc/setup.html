@@ -41,58 +41,47 @@
     web browser</a>.
   </p>
 </div>
+
 <div id="sql">
-  <h3>SQLite</h3>
+  <h3>SQL</h3>
+    <h4>DB Browser for SQLite</h4>
+ <p>
+You will need to install DB Browser for SQLite to complete these lessons. DB Browser for SQLite provides a graphical user interface for connecting to and interacting with a SQLite database. This application bundles SQLite, so you won’t need to install SQLite separately.
 
-  <p>
-    SQL is a specialized programming language used with databases.  We
-    use a database manager called
-    <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
+Note: on Windows, the PortableApp download is recommended as the regular version may take a long time to install on certain systems.
+Download the data
+ </p>
+<p>  
+To import data, you’ll need to open DB Browser for SQLite and download a zip file containing the data files for this tutorial.
+ </p>
+ <p> 
+    Download the data files doaj-article-sample.zip from Zenodo.
+    Open the zip file with the zip utlity on your machine and save the folder and files to a location where you can easily find them. For example, your Desktop.
+    Contained in the zip file are two files, doaj-article-sample.db and doaj-article-sample.db.sql. You can either open the database file (less steps) or import the SQL file (more steps).
   </p>
-
-  <div>
-    <ul class="nav nav-tabs" role="tablist">
-      <li role="presentation" class="active"><a data-os="windows" href="#sql-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
-      <li role="presentation"><a data-os="macos" href="#sql-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
-      <li role="presentation"><a data-os="linux" href="#sql-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
-      <li role="presentation"><a data-os="web" href="#sql-web" aria-controls="Web" role="tab" data-toggle="tab">Web</a></li>
-    </ul>
-    <div class="tab-content">
-      <article role="tabpanel" class="tab-pane active" id="sql-windows">
-        <ul>
-          <li>Run "Git Bash" from the Start menu</li>
-          <li>Copy the following <code>curl -fsSL  {{site.url}}{{site.baseurl}}/getsql.sh | bash</code></li>
-          <li>Paste it into the window that Git Bash opened. If you're unsure, ask an instructor for help</li>
-          <li>You should see something like <code>3.27.2 2019-02-25 16:06:06 ...</code></li>
-        </ul>
-
-          <p>If you want to do this manually, download <a href="https://www.sqlite.org/2019/sqlite-tools-win32-x86-3270200.zip">sqlite3</a>, make a bin directory in the user's home directory, unzip sqlite3, move it into the bin directory, and then add the bin directory to the path.</p>
-
-      </article>
-      <article role="tabpanel" class="tab-pane" id="sql-macos">
-        <p>
-          SQLite comes pre-installed on macOS.
-        </p>
-      </article>
-      <article role="tabpanel" class="tab-pane" id="sql-linux">
-        <p>
-          SQLite comes pre-installed on Linux.
-        </p>
-      </article>
-      <article role="tabpanel" class="tab-pane" id="sql-web">
-        <ul>
-          <li>In case of problems: register for an account at <a href="https://www.pythonanywhere.com/">https://www.pythonanywhere.com</a></li>
-          <li>Download <a href="http://swcarpentry.github.io/sql-novice-survey/files/survey.db">survey.db</a></li>
-          <li>Click on files and upload survey.db</li>
-          <li>Click on dashboard and Choose new console <code>bash</code></li>
-        </ul>
-      </article>
-    </div>
+  
+<h4>Open the database file</h4>
+<p>
+    Open DB Browser for SQLite.
+    Choose “File” > “Open Database” from the menu bar at the top of your screen.
+    Navigate to where you saved the doaj-article-sample folder and/or files. For example, your Desktop.
+    Select “doaj-article-sample.db”.
+</p>
+<h4>Import the SQL file</h4>
+<p>
+    Open DB Browser for SQLite.
+    Choose “File” > “Import” > “Database” from SQL file from the menu bar at the top of your screen.
+    Navigate to where you saved the doaj-article-sample folder and/or files. For example, your Desktop.
+    Select “doaj-article-sample.db.sql”.
+    You will be prompted to “Save As” (i.e. this is the name of the database).
+    Type “doaj-article-sample” in the “Save as” box.
+    Make sure that “SQLite database files” is selected in the drop down and that you save the database to a location where you can easily find it, again, like your Desktop.
+    Click “Save”.
+    You should see an “Executing SQL…” prompt and an “Import completed.” prompt when finished.
+    Click “OK”.
+    You will see one more prompt which says, “Do you want to save the changes made to the database file…”.
+    Click “Save”.
+</p>
   </div>
-
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-      <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-      Instructors will provide a workaround for it if needed.</strong></p>
-</div>
 
 
