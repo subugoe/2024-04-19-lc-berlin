@@ -432,23 +432,12 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-<h3 id="setup">Notepad++</h3>
-<p>For "Data Intro for Archivists" you will have to install Notepad++. You can download the latest version from <a href = "https://notepad-plus-plus.org/downloads/">this website.</a>
-</p>
-
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
-<h3 id="setup">Python</h3>
-In order to make it easier for the participants, we are going to use Jupyter Notebooks hosted by the GWDG. That means, you do NOT have to download or install anything.
-
-In stead, please, log in at <a href = "https://jupyter-cloud.gwdg.de/welcome/?">the GWDG Jupyter Cloud service.</a>
-
-If you are able to see this dashboard, you are ready for the Python workshop:
-![](https://pad.gwdg.de/uploads/c4ea241992182d482dec04a68.png)
 {% elsif site.carpentry == "incubator" %}
 Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
