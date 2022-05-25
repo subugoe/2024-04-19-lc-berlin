@@ -412,14 +412,6 @@ please preview your site before committing, and make sure to run
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-<div id="shell-setup"> {% comment %} Start of 'shell' section. {% endcomment %}
-  <h3>The Bash Shell</h3>
-  <p>
-    Bash is a commonly-used shell that gives you the power to do simple tasks
-    more quickly. Please find setup instructions in
-    the <a href="https://librarycarpentry.org/lc-shell/setup.html">lesson</a>.
-  </p>
-</div>
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
@@ -450,3 +442,11 @@ Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+<div id="shell-setup"> {% comment %} Start of 'shell' section. {% endcomment %}
+  <h3>The Bash Shell</h3>
+  <p>
+    Bash is a commonly-used shell that gives you the power to do simple tasks
+    more quickly. Please find setup instructions in
+    the <a href="https://librarycarpentry.org/lc-shell/setup.html">lesson</a>.
+  </p>
+</div>
